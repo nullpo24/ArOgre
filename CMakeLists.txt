@@ -38,7 +38,7 @@ SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} /usr/local/lib/cmake /usr/lib/cmake /
 # ----------------------------------------------------------------------------
 #   Find Dependencies
 # ----------------------------------------------------------------------------
-
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 FIND_PACKAGE(OpenCV REQUIRED)
 FIND_PACKAGE(aruco REQUIRED)
 set (REQUIRED_LIBRARIES ${OpenCV_LIBS}  ${aruco_LIBS} )
