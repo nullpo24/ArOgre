@@ -15,7 +15,7 @@ OGRE
 ```
 $ sudo add-apt-repository ppa:ogre-team/ogre
 $ sudo apt update
-$ sudo apt-get install libogre-dev
+$ sudo apt install libogre-dev
 ```
 
 ## Building
